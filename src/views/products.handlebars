@@ -1,0 +1,23 @@
+<body class="products">
+<h1> POKEMONS PARA VENDER </h1>
+{{#each productos}}
+<div class="card">
+    <h2 class="Cardtitle">{{title}}</h2>
+    <p>{{description}}</p>
+    <p><img src="{{img}}" alt=""></p>
+    <p>Pecio: ${{price}}</p>
+    <p>Categoria: {{category}} </p>
+    <button class="boton"> Agregar al Carrito </button>
+</div>
+{{/each}}
+
+
+{{#if hasNextPage}}
+    <a class="boton" href="/products?page={{nextPage}}"> Siguiente </a>
+{{/if}} 
+{{#if hasPrevPage}}
+    <a class="boton" href="/products?page={{prevPage}}"> Anterior </a>
+{{/if}}
+
+<p >Pagina {{currentPage}} de {{totalPages}} </p>
+</body>

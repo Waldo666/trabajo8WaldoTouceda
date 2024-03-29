@@ -1,0 +1,71 @@
+.products {
+    background-color: black;
+}
+h1 {
+    color:red; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+h2 {
+    color:rgb(73, 4, 4); 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+
+}
+.Cardtitle {
+    color: rgb(0, 0, 0);
+    text-align: center;       
+    text-shadow: 0px 0px 24px rgb(255, 255, 255);
+}
+p {
+    color: aliceblue;
+    text-align: left;
+    border: 3px solid #076fba;
+    background-color: #022035;
+    border-radius: 15px;
+    margin: 15px;
+    padding: 10px;
+    min-width: 200px;
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.5);
+}
+label {
+    color: aliceblue;
+    text-align: left;
+    border: 3px solid #076fba;
+    background-color: #022035;
+    border-radius: 15px;
+    margin: 35px;
+    padding: 5px;
+    min-width: 200px;
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.5);
+}
+
+.card {
+    color: aliceblue;
+    text-align: center;
+    border: 3px solid #076fba;
+    background-color: #022035;
+    border-radius: 15px;
+    margin: 15px;
+    padding: 10px;
+    min-width: 200px;
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.5);
+}
+.boton {
+    color: white; 
+    background-color: rgb(88, 17, 147); 
+    font-weight:bold ;
+    transition:  0.6s; 
+    padding: 10px 20px; 
+    border-radius: 20px;
+}
+
+.boton:hover {
+    background-color: rgb(71, 1, 1); 
+    box-shadow: 0px 0px 15px 10px rgba(255, 255, 255, 0.5);;
+}
+input {
+    width: 200px; /* Tamaño deseado para los inputs */
+    margin-bottom: 10px;
+    
+}
